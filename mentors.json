@@ -1,0 +1,333 @@
+[
+    {
+        "pk":1,
+        "model":"mentors.Mentor",
+        "fields": {
+            "nameFirst":"Kat",
+            "nameLast":"Hawthorne",
+            "company":"Square",
+            "companyUrl":"http://squareup.com",
+            "socialMedia": {
+                "linkedIn":"www.linkedin.com/in/kathawthorne/",
+                "twitter":"khhawthorne",
+                "gitHub":"",
+                "website":"",
+                "linkOther":"http://vimeo.com/84810976"
+            },
+
+            "techExp": {
+                "basicWeb":true,
+                "complexWeb":true,
+                "python":false,
+                "rubyRails":true,
+                "django":false,
+                "mobile":false,
+                "hardware":false,
+                "java":true,
+                "CC++":false,
+                "linux":false,
+                "ai":false,
+                "security":false,
+                "Games":false,
+                "ux":true,
+                "pm":false,
+                "aws":false,
+                "other":""  
+            },
+            "techTalk":true,
+            "judge":true,
+            
+            "language":"Ruby",
+            "languageUrl":"https://ruby-lang.org",
+            "almaMater": "UNC-Chapel Hill",
+            "photoUrl":"http://pearlhacks.com/mentors/Kat.png",
+            "allWomen":"You deserve better. You deserve to treat yourself better, you deserve equality, you deserve to be recognized for your brilliance and kindness and determination. Don't ever settle for mediocre or &quot;meh&quot; because it's the safe option or the one that you know you can get right now. Keep going until you've achieved things that you never thought you were capable of, and the secret is that you were worthy of them all along.",
+            "afraid":"One of my new year's resolutions was to &quot;scare myself.&quot; The best decisions I've ever made have been the ones where I was utterly terrified during them. They were risky, embarrassing, or unknown. Moving to California. Leaving my family. Abandoning my pre-med/bio/chemistry degree. They were all terrifying. Getting on a motorcycle the first few times. Continuing to get on a motorcycle after falling off of it. Putting myself &quot;out there.&quot;",
+            "color":"Purple",
+            "hexCode":"",
+
+            "about":"Greetings! I'm Kat. I graduated from UNC back in May 2013, and have since moved out to California to be a software engineer at Square.",
+            "hobbies": [
+                "(Motor)cycling", "Interactive Art", "Conversations", "Potlucks", "Urban exploring"
+            ],
+            "proud":"I'm proud of my breadth of knowledge and experience. I like being a renaissance girl, and I believe that innovation thrives upon synthesis of fields."
+            
+        }
+    },
+    
+    {
+        "pk":2,
+        "model":"mentors.Mentor",
+        "fields": {
+            "nameFirst":"Tom",
+            "nameLast":"Byrne",
+            "company":"Electric Imp",
+            "companyUrl":"http://electricimp.com",
+            "socialMedia": {
+                "linkedIn":"http://www.linkedin.com/profile/view?id=184662417&trk=nav_responsive_tab_profile_pic",
+                "twitter":"https://twitter.com/tlbyrn",
+                "gitHub":"https://github.com/tombrew",
+                "website":"",
+                "linkOther":""
+            },
+
+            "techExp": {
+                "basicWeb":false,
+                "complexWeb":false,
+                "python":false,
+                "rubyRails":true,
+                "django":false,
+                "mobile":false,
+                "hardware":true,
+                "java":false,
+                "CC++":false,
+                "linux":false,
+                "ai":false,
+                "security":false,
+                "Games":false,
+                "ux":false,
+                "pm":false,
+                "aws":false,
+                "other":"Hardware Design, Connected Devices, Squirrel, JavaScript, 3D Modeling"
+            },    
+            "techTalk":true,
+            "judge":true,
+
+            "language":"C++",
+            "languageUrl":"http://www.cplusplus.com",
+            "almaMater": "Rensselaer Polytechnic Institute",
+            "photoUrl":"http://pearlhacks.com/mentors/Tom.png",
+            "allWomen":"Go for it!",
+            "afraid":"Get a Pilot's License. I've wanted to for years but I'm afraid to start spending the money to do it.",
+            "color":"Blue",
+            "hexCode":"",
+
+            "about":"I'm happy to be at Pearl Hacks! I love building things, learning, teaching, and discovering ways to make things work better. My favorite part of my job is when I get to watch someone I've helped create something I never would have thought of.<br><br>Being a hardware engineer is just another way to learn something artistic and use it to help others. I'm lucky to have the opportunity to do so frequently.",
+            "hobbies": [
+                "Guitar", "Rock Climbing", "Cycling", "Sailing", "Pokemon"
+            ],
+            "proud":"I ran a radio show at my college radio station (WRPI Troy, NY) called &quot;Wednesday Night Live&quot;. It required a crew of a couple dozen people to put on, and involved bringing a new live band to the studio for a 2-hour set every Wednesday night. We had a live sound crew, a TV crew, a PR crew, people to look after the performers, my co-host, and myself. It was a great collaborative work experience, and we got to meet some tremendous artists and create something really interesting. I've never laughed so hard as I did working to put that show on."
+        }
+    },
+    
+    {
+        "pk":3,
+        "model":"mentors.Mentor",
+        "fields": {
+            "nameFirst":"Bridget",
+            "nameLast":"Hillyer",
+            "company":"Self-employed/ClojureBridge",
+            "companyUrl":"http://ClojureBridge.org",
+            "socialMedia": {
+                "linkedIn":"",
+                "twitter":"http://twitter.com/BridgetHillyer",
+                "gitHub":"http://github.com/bridgethillyer",
+                "website":"http://bridgetconsulting.com",
+                "linkOther":""
+            },
+
+            "techExp": {
+                "basicWeb":false,
+                "complexWeb":false,
+                "python":true,
+                "rubyRails":true,
+                "django":false,
+                "mobile":false,
+                "hardware":false,
+                "java":true,
+                "CC++":true,
+                "linux":false,
+                "ai":false,
+                "security":false,
+                "Games":false,
+                "ux":false,
+                "pm":false,
+                "aws":true,
+                "other":"Clojure"
+            },
+            "techTalk":true,
+            "judge":false,
+
+            "language":"Perl",
+            "languageUrl":"http://perl.org",
+            "almaMater": "Florida State University",
+            "photoUrl":"http://pearlhacks.com/mentors/Bridget.png",
+            "allWomen":"Don't be afraid to ask for what you want.",
+            "afraid":"I work for myself and only work on projects I'm interested in.",
+            "color":"Black",
+            "hexCode":"",
+
+            "about":"I am an independent software consultant of many years. I am on the journey to become a Clojure programmer after having worked with Java, C/C++, Javascript, and Python. I have a daughter in middle school.",
+            "hobbies": [
+                "Reading", "Hiking", "Swimming", "Movies"
+            ],
+            "proud":"My family and being an independent software professional."       
+        }
+    },
+    
+    {
+        "pk":4,
+        "model":"mentors.Mentor",
+        "fields": {
+            "nameFirst":"Julia",
+            "nameLast":"Elman",
+            "company":"Trinket",
+            "companyUrl":"http://trinket.io/",
+            "socialMedia": {
+                "linkedIn":"http://www.linkedin.com/in/juliaelman",
+                "twitter":"https://twitter.com/juliaelman/",
+                "gitHub":"https://github.com/juliaelman",
+                "website":"http://juliaelman.com/",
+                "linkOther":"http://dribbble.com/juliaelman/"
+            },
+
+            "techExp": {
+                "basicWeb":true,
+                "complexWeb":false,
+                "python":false,
+                "rubyRails":false,
+                "django":true,
+                "mobile":false,
+                "hardware":false,
+                "java":false,
+                "CC++":false,
+                "linux":false,
+                "ai":false,
+                "security":false,
+                "Games":false,
+                "ux":true,
+                "pm":false,
+                "aws":false,
+                "other":""
+            },
+            "techTalk":false,
+            "judge":true,
+            
+            "language":"Julia ;)",
+            "languageUrl":"http://julialang.org",
+            "almaMater": "The University of Kansas",
+            "photoUrl":"http://pearlhacks.com/mentors/Kat.png",
+            "allWomen":"Never give up. Ever. Never. Ever!",
+            "afraid":"Take more time for myself.",
+            "color":"Green",
+            "hexCode":"",
+
+            "about":"Julia Elman is a designer, developer and tech education advocate based in North Carolina. She has been working her brand of web skills since 2002. Her first dive into Python was at World Online in Lawrence, Kansas in 2008, as a Junior Developer/Designer. In early 2013, she helped start a local chapter of Girl Develop It and empowered over 400 members to learn computer programming. She also helped organize the 2013 Teen Tech Camp, where 20 local teens learned Python programming in a one-day event. Julia is the Lead Designer at trinket, a platform for open teaching.",
+            "hobbies": [
+                "Volunteering as chapter leader for GDIRDU", 
+                "Reading stacks of books with my daughter",
+                "Helping make opportunities for other people"
+            ],
+            "proud":"I am proud of my daughter, for the loving, intelligent and kind human being she is becoming. While she is only 4 years old, she amazes me every day with her talents for empathy and a deep understanding of human nature."
+        }
+    },
+    
+    {
+        "pk":5,
+        "model":"mentors.Mentor",
+        "fields": {
+            "nameFirst":"Emily",
+            "nameLast":"Chow",
+            "company":"Washington Post",
+            "companyUrl":"http://washingtonpost.com",
+            "socialMedia": {
+                "linkedIn":"http://www.linkedin.com/in/eschow",
+                "twitter":"http://twitter.com/eschow",
+                "gitHub":"http://github.com/eschow",
+                "website":"http://eschow.com",
+                "linkOther":""
+            },
+
+            "techExp": {
+                "basicWeb":true,
+                "complexWeb":false,
+                "python":false,
+                "rubyRails":false,
+                "django":false,
+                "mobile":false,
+                "hardware":false,
+                "java":false,
+                "CC++":false,
+                "linux":false,
+                "ai":false,
+                "security":false,
+                "Games":false,
+                "ux":true,
+                "pm":false,
+                "aws":false,
+                "other":""
+            },
+            "techTalk":false,
+            "judge":true,
+
+            "language":"Python",
+            "languageUrl":"http://python.org",
+            "almaMater": "Northwestern University",
+            "photoUrl":"http://pearlhacks.com/mentors/Emily.png",
+            "allWomen":"",
+            "afraid":"",
+            "color":"Coral",
+            "hexCode":"",
+
+            "about":"Hailing from San Francisco Bay Area, I graduated from Northwestern University in 2012 and started working at the Washington Post as an interactive graphics designer and developer shortly after. Before graduating, I interned at various media and PR organizations as a photographer, designer (both print and digital) and a writer.",
+            "hobbies": [
+                "Knitting", "Cooking", "Traveling", "Reading", "Volunteering with animal rescue"
+            ],
+            "proud":""
+            
+        }
+    },
+    
+    {
+        "pk":6,
+        "model":"mentors.Mentor",
+        "fields": {
+            "nameFirst":"Baris",
+            "nameLast":"Yuksel",
+            "company":"Google",
+            "socialMedia": {
+                "linkedIn":"http://www.linkedin.com/pub/baris-yuksel/1/bb1/998",
+                "twitter":"http://twitter.com/baris_wonders",
+                "gitHub":"",
+                "website":"http://barisyuksel.com",
+                "linkOther":""
+            },
+
+            "techExp": {
+                "basicWeb":true,
+                "complexWeb":true,
+                "python":true,
+                "rubyRails":false,
+                "django":true,
+                "mobile":true,
+                "hardware":true,
+                "java":true,
+                "CC++":true,
+                "linux":true,
+                "ai":true,
+                "security":false,
+                "Games":false,
+                "ux":false,
+                "pm":false,
+                "aws":false,
+                "other":""
+            },
+            "techTalk":true,
+            "judge":true,
+            "language":"Python",
+            "languageUrl":"http://python.org",
+            "almaMater":"MIT",
+            "photoUrl":"http://pearlhacks.com/mentors/Baris.png",
+            "allWomen":"The struggle for a better tomorrow is futile without strong women.",
+            "afraid":"Sail more. I know my sailing skills are not very good, so I get scared taking the responsibility of a whole boat. That said, also I'd be more mobile in the world.",
+            "color":"Purple, Black/Red mix",
+            "hexCode":"",
+            "about":"I'm curious and excited to live.",
+            "hobbies": [
+                "Cooking"
+            ],
+            "proud":"Having the opportunity to have witnessed the difference Computer Science can make in people's lives for a better quality of living across the globe. Also, my friends :)"
+            
+        }
+    }
+]
