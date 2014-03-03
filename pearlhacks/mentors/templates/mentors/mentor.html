@@ -135,7 +135,7 @@
 		url = document.URL;
 		urlSplit = url.split("/");
 		mentor_pk = parseInt(urlSplit[urlSplit.length-1]);
-		if (mentor_pk == 22) {
+		if (mentor_pk == 23) {
 			$(".next-url").attr("href", 1);
 			$(".m-next-url").attr("href", 1);
 			$(".back-url").attr("href", mentor_pk-1);
@@ -143,7 +143,7 @@
 		else if (mentor_pk == 1) {
 			$(".next-url").attr("href", mentor_pk+1);
 			$(".m-next-url").attr("href", mentor_pk+1);
-			$(".back-url").attr("href", 22);
+			$(".back-url").attr("href", 23);
 		}
 		else {
 			$(".next-url").attr("href", mentor_pk+1);

@@ -7,12 +7,18 @@ https://docs.djangoproject.com/en/1.6/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.6/ref/settings/
 """
+import dj_database_url
+DATABASES['default']=dj_database_url.config()
+
+ALLOWED_HOSTS = ['*']
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
 PROJECT_ROOT = os.path.dirname(__file__)
 PROJECT_PATH = os.path.dirname(PROJECT_ROOT)
-# BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+STATIC_ROOT='staticfiles'
+STATIC_URL='/static/'
 
 
 # Quick-start development settings - unsuitable for production
