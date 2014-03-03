@@ -7,6 +7,6 @@ urlpatterns = patterns('',
     # Examples:
     # url(r'^$', 'pearlhacks.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
-    url(r'^hello-world/$', 'mentors.views.home'),
+    url(r'^', include('mentors.urls')),
     url(r'^admin/', include(admin.site.urls)),
 )

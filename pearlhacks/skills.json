@@ -12,7 +12,7 @@
         "model":"mentors.Skill",
         "fields": {
             "name":"complexWeb",
-            "description":"More complex web dev (PHP, MySQL, Javascript and CSS libraries/platforms, etc.)"
+            "description":"Advanced web dev (PHP, MySQL, web libraries and platforms)"
         }
     },
     {
@@ -67,7 +67,7 @@
         "pk":9,
         "model":"mentors.Skill",
         "fields": {
-            "name":"CC++",
+            "name":"CC",
             "description":"C or C++"
         }
     },
@@ -84,7 +84,7 @@
         "model":"mentors.Skill",
         "fields": {
             "name":"ai",
-            "description":"Artificial Intelligence, Machine Learning"
+            "description":"Artificial Intelligence and Machine Learning"
         }
     },
     {

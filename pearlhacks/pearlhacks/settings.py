@@ -26,6 +26,11 @@ DEBUG = True
 
 TEMPLATE_DEBUG = True
 
+TEMPLATE_LOADERS = (
+    'django.template.loaders.filesystem.Loader',
+    'django.template.loaders.app_directories.Loader',
+)
+
 ALLOWED_HOSTS = []
 
 
@@ -39,6 +44,7 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.humanize',
     'mentors',
 )
 
@@ -100,5 +106,5 @@ STATIC_URL = '/static/'
 
 # This is where your CSS and JS files will live
 STATICFILES_DIRS = (
-    os.path.join(PROJECT_ROOT, 'static_media')
+    os.path.join(PROJECT_ROOT, 'static_media'),
 )

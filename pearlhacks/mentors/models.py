@@ -6,11 +6,16 @@ class Skill(models.Model):
 	name = models.CharField(max_length=10)
 	description = models.TextField()
 
+	def __unicode__(self):
+		return U'%s %s' %(self.name, self.description)
+
 class Mentor(models.Model):
     nameFirst = models.CharField(max_length=20)
     nameLast = models.CharField(max_length=20)
     company = models.CharField(max_length=30)
     companyUrl = models.TextField()
+    companyImgUrl = models.TextField()
+    email = models.CharField(max_length=50)
     twitter = models.TextField()
     linkedIn = models.TextField()
     gitHub = models.TextField()
@@ -24,6 +29,7 @@ class Mentor(models.Model):
     photoUrl = models.TextField()
     color = models.CharField(max_length=20)
     hexCode = models.CharField(max_length=7)
+    highlight = models.CharField(max_length=7)
     allWomen = models.TextField()
     afraid = models.TextField()
     proud = models.TextField()
