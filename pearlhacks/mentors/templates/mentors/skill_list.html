@@ -6,7 +6,11 @@
 	<ul>
 	{% for skill in skills %}
 	{# Each "skill" is a skill model object. #}
-	<li><a href="{{ skill.id }}">{{ skill.name }}</a> | {{ skill.description }}</li>
+	<li><a href="{{ skill.id }}">{{ skill.name }}</a> | {{ skill.description }}
+
+<!-- how do I print the list of mentors with this skill? -->
+
+	</li>
 {% endfor %}
 </ul>
 

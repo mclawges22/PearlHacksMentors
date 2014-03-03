@@ -126,6 +126,7 @@ header a, header a:hover {
 }
 .info {
 	margin-left:40%;
+	margin-top:0px;
 }
 .info-across {
 	width:70%;
@@ -161,9 +162,10 @@ h2 {
 	letter-spacing:2px;
 }
 .company-logo {
-	width:70%;
+	height:80px;
 	display:inline;
 	margin:0 15%;
+	float:right;
 	
 }
 .profile-blurb {
@@ -172,8 +174,8 @@ h2 {
 	margin-bottom:30px;
 	
 }
-.about {
-	margin-top:20px;
+#about {
+	margin-top:40px;
 }
 ul:nth-child(2), p:nth-child(2) {
 	margin:10px 0;
@@ -184,16 +186,20 @@ h3 {
 	letter-spacing:2px;
 }
 #skills {
-	width:90%;
+	width:100%;
 }
 #skills h3, #skills ul {
 	float:left;
 }
 #skills ul {
-	width:70%;
+	width:80%;
 	padding-left:0px;
 	margin-bottom:30px;
 }
+.no-about {
+	margin-top:60px;
+}
+
 #skills li {
 	
 }
@@ -317,7 +323,7 @@ h3 {
 	.company-logo {
 		margin:20 15% 0 0 ;
 		width:80%;
-
+		display:none;
 	}
 
 	#skills h3, #skills ul {
@@ -342,6 +348,10 @@ h3 {
 	}
 }
 @media screen and (max-width: 500px) {
+	.nav {
+		padding-top:0px;
+		height: 50px;
+		}
 	.row {
 		margin-top:45px;
 	}
@@ -353,7 +363,8 @@ h3 {
 		font-size:32px;
 	}
 	.mobile .m-name {
-		padding-top: 2px
+		padding-top: 2px;
+		width:73%;
 	}
 	.mobile .m-nav{
 		padding:6px 3%;
@@ -361,11 +372,15 @@ h3 {
 	.mobile .line{
 		margin-top:6px;
 	}
+	.mobile .m-next{
+		padding-top:5px;
+		width:13%;
+	}
 
 	.arrow-right {
 		margin-left:4px;
-		border-top: 15px solid transparent;
-		border-bottom: 15px solid transparent;
+		border-top: 14px solid transparent;
+		border-bottom: 14px solid transparent;
 		border-left: 20px solid #fff;
 	}
 	.photo {
@@ -373,7 +388,7 @@ h3 {
 	}
 	.contact-logos {
 		width:100%;
-		margin:30px 3% 30px 3%;
+		margin:30px 3% 0px 3%;
 	}
 		.contact-logos img {
 			width:22.5%;
@@ -382,8 +397,7 @@ h3 {
 	.m-company-logo {
 		display:inline;
 		width:70%;
-		margin:0;
-		margin-top:10px;
+		margin:0 15%;
 	}
 	.company-logo {
 		display: none;

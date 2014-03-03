@@ -118,8 +118,9 @@ header a, header a:hover {
 		outline:none;
 		background-color: #F3E360;
 		position:absolute;
-		top:20px;
+		top:90px;
 		right:-20px;
+		position:fixed;
 		
 	}
 		::-webkit-input-placeholder { /* WebKit browsers */
@@ -254,14 +255,16 @@ header a, header a:hover {
 		border-radius:0;
 		margin:0;
 		height:40px;
-		padding-top:10px;
+		padding-top:7px;
 		padding-left:10%;
 		width:50%;
 		bottom:0px;
-		font-size:18px;
+		font-size:28px;
 		position:fixed;
 		background-color: #00943D;
-		color:#fff;
+		color:#000;
+		font-family:LMP;
+		letter-spacing: 1px
 	}
 	.search_list {
 		margin-top:25px;
@@ -274,7 +277,8 @@ header a, header a:hover {
 		margin-top:20px;
 	}
 	h2 {
-		margin:20px 0 10px 30px;
+		width:100%;
+		margin:20px 0px 10px 30px;
 		float:left;
 	}	
 }
@@ -322,9 +326,9 @@ header a, header a:hover {
 	}
 	h2 {
 		font-size:20px;
-		width:80%;
-		padding:0 0 20px 10px;
+		width:100%;
 		margin:0;
+		margin-bottom:20px;
 	}
 	h2, h1 {
 		float:left;

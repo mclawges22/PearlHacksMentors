@@ -60,7 +60,7 @@
             "allWomen":"Go for it!",
             "afraid":"Get a Pilot's License. I've wanted to for years but I'm afraid to start spending the money to do it.",
             "color":"Blue",
-            "hexCode":"#3551FB",
+            "hexCode":"#007cb1",
             "highlight":"#fff",
             "about":"I'm happy to be at Pearl Hacks! I love building things, learning, teaching, and discovering ways to make things work better. My favorite part of my job is when I get to watch someone I've helped create something I never would have thought of. Being a hardware engineer is just another way to learn something artistic and use it to help others. I'm lucky to have the opportunity to do so frequently.",
             "hobbies":"Guitar, Rock Climbing, Cycling, Sailing, Pokemon",
@@ -331,7 +331,7 @@
             "allWomen":"Feel your fear, but don't let it hold you back. People who are successful now failed a lot before they got there, so don't be ashamed to fail. Ask yourself, honestly, \"What's the worst that can happen?\" If you can survive whatever the answer is, go for it.",
             "afraid":"I'd love to go rock climbing in nature.  I've only ever done it in a controlled area like a gym or rock climbing facility but I'd love to go out to Arizona and climb some real rocks.",
             "color":"Yellow",
-            "hexCode":"#F3E360",
+            "hexCode":"#E48F35",
             "highlight":"#fff",
             "about":"A graduate of Meredith College's intensive Computer Science program, Cas has worked as an editor for Oxford University Press, a development tester in SAS' R&D program, a web developer for FlipKey (a startup company in Boston), a database consultant for SAS, and finally, in her dream job, as a user experience web developer for Red Hat.  She's participated in several hack-a-thons and local programming clubs.",
             "hobbies":"Yoga, Reading",
@@ -437,7 +437,7 @@
             "highlight":"#fff",
             "about":"I'm a software engineer, entrepreneur, and speaker, who helps women  advance into technical leadership roles!",
             "hobbies":"Yoga",
-            "proud":"My current business: <a href='http://femgineer.com'>Femgineer</a>."           
+            "proud":"My current business - Femgineer.com."           
         }
     },
     {
@@ -535,8 +535,8 @@
             "allWomen":"Don't back down when you know you're right. Even when they decide to lose their temper.",
             "afraid":"Whatever I choose to. I made a list of the things I wanted to accomplish in my life when I was five. The list changed a little bit as I grew up but I've managed to accomplish all but one of the things on that list. So I added a few more. Visit New Zealand and Japan. Learn how to fly a helicopter.",
             "color":"Green and Purple",
-            "hexCode":"#6F0E97",
-            "highlight":"#09A331",
+            "hexCode":"#5C246E",
+            "highlight":"#fff",
             "about":"",
             "hobbies":"Gymnastics, Reading",
             "proud":"Sticking to my guns whenever, wherever, and as long as possible. (it's a lot harder than it sounds)"           
@@ -709,7 +709,41 @@
             "highlight":"#fff",
             "about":"",
             "hobbies":"Civic Hacking - using your skills to make cool apps for your community and local government",
-            "proud":"Being a student developer, open source software advocate, and local organizer. I hope to become a creator and contributor to the open web and make things that matter.<br><br> I am a dedicated lifetime learner, passionate for emerging technologies, and open-minded problem solver."           
+            "proud":"Being a student developer, open source software advocate, and local organizer. I hope to become a creator and contributor to the open web and make things that matter. I am a dedicated lifetime learner, passionate for emerging technologies, and open-minded problem solver."           
+        }
+    },
+    {
+        "pk":22,
+        "model":"mentors.Mentor",
+        "fields": {
+            "nameFirst":"Amalia",
+            "nameLast":"Hawkins",
+            "email":"amalia.hawkins@gmail.com",
+            "company":"MongoDB, Inc.",
+            "companyUrl":"http://mongodb.org",
+            "companyImgUrl":"http://pearlhacks.com/sponsor_logos/MongoDB.png",
+            "linkedIn":"http://linkedin.com/in/hawka/",
+            "twitter":"",
+            "gitHub":"https://github.com/hawka",
+            "website":"",
+            "linkOther":"",
+            "skills":[3,9,10,16],
+            "skillsOther":"Public Speaking/Giving a Good Demo",           
+            "techTalk":true,
+            "judge":true,
+            "mentor":true,
+            "language":"Python",
+            "languageUrl":"http://www.python.org/",
+            "almaMater":"University of Pennsylvania",
+            "photoUrl":"https://scontent-a.xx.fbcdn.net/hphotos-ash3/l/t1/1926702_10152262944724042_1825341671_n.jpg",
+            "allWomen":"Don't be afraid of speaking up loudly and frequently and at the top of your lungs if necessary. My general approach is that (a) other people probably are thinking what I'm saying, and (b) even if they're not thinking it I am thinking it so I am going to say it.",
+            "afraid":"I started playing on my company's corporate dodgeball team even though I am zero percent athletically capable and have no hand-eye coordination and was sort of terrified of looking super foolish. I am not very good at it and I am sure I look super foolish but it is super fun and I am very glad I did it.",
+            "color":"Pink! Hot pink, baby pink, salmon pink, all the pinks.",
+            "hexCode":"#b2497d",
+            "highlight":"#fff",
+            "about":"I am a software engineer at MongoDB working on the server team. I graduated from UPenn May 2013, where I encountered computer science for the first time as a freshman majoring in mechanical engineering. I decided to switch to computer science and never looked back. I was a lead organizer of PennApps Hackathon for two years, and attended several hackathons as a participant. I've taught intro computer science in the past, including a stint with Girls Who Code, and am very passionate about closing the gender gap in this field.",
+            "hobbies":"Drawing, Reading, Playing video games, Skiing, Scuba diving, Drinking (does that count?), Hanging out with friends, Watching Netflix like a boss",
+            "proud":"I'm proud of finding a job that I love with people I adore in a very technical role even though that's not something I imagined I would be qualified for back as a college freshman. But I AM qualified for it and I'm doing great at it and that's awesome. :D"           
         }
     }
 ]

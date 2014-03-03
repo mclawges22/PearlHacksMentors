@@ -53,6 +53,7 @@
 				<a id="github_link" href="" target="_blank"><img id="github"src="http://pearlhacks.com/mentors/github_circle.png"></a>
 				<a id="linkedIn_link" href="" target="_blank"><img id="linkedIn"src="http://pearlhacks.com/mentors/linkedIn_circle.png"></a>
 			</div>
+			<a href="{{Mentor.companyUrl}}" target="_blank"><img class="m-company-logo" src="{{ Mentor.companyImgUrl}}"></a>
 			
 		</div>
 
@@ -61,11 +62,13 @@
 				<h2>{{Mentor.nameFirst}} {{Mentor.nameLast}}</h2>
 				
 			</div>
+			<a href="{{Mentor.companyUrl}}" target="_blank"><img class="company-logo" src="{{ Mentor.companyImgUrl}}"></a>
 			<div class="profile-blurb" id="about">
 				<h3 class="colored">About</h3>
 				<p>{{Mentor.about}}</p>
+
 			</div>
-			<a href="{{Mentor.companyUrl}}" target="_blank"><img class="m-company-logo" src="{{ Mentor.companyImgUrl}}"></a>
+			
 			<div class="profile-blurb" id="skills">
 				<h3 class="colored">Skills</h3>
 				<ul class="skillsList"> 
@@ -74,6 +77,7 @@
 					{% endfor %}
 				</ul>
 			</div>
+			
 			<div class="profile-blurb" id="allWomen">
 				<h3 class="colored">Something you wish you could say to all women?</h3>
 				<p><em>"</em> {{Mentor.allWomen}} <em>"</em></p>
@@ -81,6 +85,10 @@
 			<div class="profile-blurb" id="proud">
 				<h3 class="colored">What are you most proud of?</h3>
 				<p><em>"</em> {{Mentor.proud}} <em>"</em></p>
+			</div>
+			<div class="profile-blurb" id="afraid">
+				<h3 class="colored">What would you do if you weren't afraid?</h3>
+				<p><em>"</em> {{Mentor.afraid}} <em>"</em></p>
 			</div>
 		</div>
 	</div>
@@ -127,7 +135,7 @@
 		url = document.URL;
 		urlSplit = url.split("/");
 		mentor_pk = parseInt(urlSplit[urlSplit.length-1]);
-		if (mentor_pk == 21) {
+		if (mentor_pk == 22) {
 			$(".next-url").attr("href", 1);
 			$(".m-next-url").attr("href", 1);
 			$(".back-url").attr("href", mentor_pk-1);
@@ -135,7 +143,7 @@
 		else if (mentor_pk == 1) {
 			$(".next-url").attr("href", mentor_pk+1);
 			$(".m-next-url").attr("href", mentor_pk+1);
-			$(".back-url").attr("href", 21);
+			$(".back-url").attr("href", 22);
 		}
 		else {
 			$(".next-url").attr("href", mentor_pk+1);
@@ -152,12 +160,16 @@
 		if ("{{Mentor.about}}" == "") {
 			console.log("no about");
 			$("#about").hide();
+			$("#skills").addClass("no-about");
 		}
 		if ("{{Mentor.allWomen}}" == "") {
 			$("#allWomen").hide();
 		}
 		if ("{{Mentor.proud}}" == "") {
 			$("#proud").hide();
+		}
+		if ("{{Mentor.afraid}}" == "") {
+			$("#afraid").hide();
 		}
 	}
 	function checkContactInfo() {

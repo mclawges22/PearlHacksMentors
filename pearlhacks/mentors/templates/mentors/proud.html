@@ -1,4 +1,4 @@
-<!--mentors/templates/mentors/afraid.html -->
+<!--mentors/templates/mentors/proud.html -->
 
 {% extends "base.html" %}
 
@@ -7,16 +7,14 @@
 {% block content %}
 <div class="l-arrow-bg"><div class="arrow-left"></div></div>
 <a href="../"><img id="home" src="{{ STATIC_URL }}img/pearls.png"></a><div class="r-arrow-bg"><div class="arrow-right"></div></div>
-<h1 class="afraid">What would you do if you weren't afraid?</h1>
+<h1>What are you most proud of?</h1>
 
 <div class="row">
-	<div class="col-md-5 col-sm-5">
-		<img src="{{ Mentor.photoUrl }}" width="100%">
-	</div>
+	
 
-	<div class="col-md-6 col-md-offset-1 col-sm-6 col-sm-offset-1 col-xs-12 afraid">
-		<h4 class="quote"><strong>"</strong> {{ Mentor.afraid }} <strong>"</strong></h4>
-		<h3>- <a href="./mentor/{{Mentor.pk}}">{{ Mentor.nameFirst }} {{ Mentor.nameLast }}</a>, {{ Mentor.company }}</h3>
+	<div class="col-md-11 col-md-offset-1 col-sm-6 col-sm-offset-1 col-xs-12">
+		<h4 class="quote"><strong>"</strong> {{ Mentor.proud }} <strong>"</strong></h4>
+		<h3>- <a href="{{ Mentor.nameFirst|lower }}">{{ Mentor.nameFirst }} {{ Mentor.nameLast }}</a>, {{ Mentor.company }}</h3>
 	</div>
 	
 </div>
@@ -38,7 +36,6 @@
 		$(".r-arrow-bg").on("click", function() {
 			location.reload();
 		})
-		
 	});
 </script>
 {% endblock %}

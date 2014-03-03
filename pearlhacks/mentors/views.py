@@ -19,6 +19,11 @@ def afraid(request):
     # mentor = get_object_or_404(Mentor, id=pk)
     return render(request, "mentors/afraid.html", {'Mentor': mentor})
 
+def proud(request):
+    mentor = Mentor.objects.order_by('?')[0]
+    # mentor = get_object_or_404(Mentor, id=pk)
+    return render(request, "mentors/proud.html", {'Mentor': mentor})
+
 def mentor(request, pk):
     # mentor = Mentor.objects.order_by('?')[0]
     mentor = get_object_or_404(Mentor, id=pk)
